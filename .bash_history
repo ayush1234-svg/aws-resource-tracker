@@ -450,3 +450,36 @@ ls
 mv cron.log aws_resource/
 ls
 cd ~/Pictures
+clear
+ls
+mv aws_resource_usage.png cronlog.png crontab.png aws_resource/
+ls
+cd aws_resource
+mkdir images
+ls
+mv aws_resource_usage.png cronlog.png crontab.png images/
+ls
+.. cd
+cd ..
+git init
+git remote add origin https://github.com/ayush1234-svg/aws-resource-tracker
+git add .
+git commit -m "first commit"
+git branch -M main
+git push -u origin main
+git pull origin main --rebase
+git push origin main
+ls
+cd aws_resource
+ls
+cd imagews
+cd images
+ls
+cd .. / ..
+cd ..
+ls
+cd aws_resource
+ls
+git ls-files
+git rm -r README.md screenshots tracker cron.log cronlog.png crontab.png aws_resource_usage.png
+ls
