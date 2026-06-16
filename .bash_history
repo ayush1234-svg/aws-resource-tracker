@@ -396,3 +396,57 @@ cat cron.log
 ls
 aws aws_resource_usage.sh
 vim aws_resource_usage.sh
+mkdir screenshots
+mv *.png screenshots/
+git add .
+git commit -m "organized screenshots"
+git push origin main
+clear
+ls
+cat aws_resource_usage.sh
+crontab -l
+cat cron.log
+clear
+crontab -l
+tail -n 30 /home/ubuntu/cron.log
+mkdir screenshots
+mv cron_log.png screenshots/
+mv cron_setup.png screenshots/
+ls *.png
+git init
+git https://github.com/ayush1234-svg/aws-resource-tracker.git
+clea
+clear
+git remote add origin https://github.com/your-username/aws-resource-tracker.git
+ls
+git add .
+git commit -m "Initial commit - AWS resource tracker project"
+git branch -M main
+git push -u origin main
+git remote set-url origin https://github.com/ayush1234-svg/aws-resource-tracker.git
+git remote -v
+git push -u origin main
+git rm --cached -r .aws
+ls -a
+rm -rf .aws
+nano .gitignore
+git reset --soft HEAD~1
+rm -rf .git
+git init
+nano .gitignore
+git add aws_resource_usage.sh screenshots .gitignore
+git commit -m "Clean AWS automation project without secrets"
+git remote add origin https://github.com/ayush1234-svg/aws-resource-tracker.git
+git branch -M main
+git push -u origin main
+clear
+ls
+clear
+ls
+mkdir aws_resource tracker
+ls
+mv aws_resource_usage.sh aws_resource/
+ls
+mv cron.log aws_resource/
+ls
+cd ~/Pictures
