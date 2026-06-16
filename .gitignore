@@ -1,5 +1,0 @@
-.aws/
-*.log
-.env
-.Xauthority
-.bash_history
