@@ -1,0 +1,4 @@
+*.log
+.Xauthority
+.bash_history
+.aws
